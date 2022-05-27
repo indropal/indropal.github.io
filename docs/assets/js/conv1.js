@@ -114,7 +114,7 @@ var conversions = function(){
     interval *= 1.5;
     orchestrate_Bengali_conv();
     setTimeout(conversions, interval);
-    interval = 300000;
+    interval = 310000;
 }
 
 setTimeout(conversions, interval);
