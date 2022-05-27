@@ -279,7 +279,7 @@ function orchestrate_hindi_greeting(){
 function greetings_Conversion(){
     orchestrate_bengali_greeting();
     setTimeout(orchestrate_bengali_greeting, 10000);
-    setTimeout(orchestrate_hindi_greeting, 14000);
+    setTimeout(orchestrate_hindi_greeting, 14500);
     setTimeout(orchestrate_hindi_greeting, 20000);
 };
 
