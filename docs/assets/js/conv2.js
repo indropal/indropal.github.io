@@ -70,7 +70,7 @@ function conv_greet_r(conv_greet_greet_r_Bengali, conv_greet_greet_r_Hindi, dela
             
             if (conv_greet_greet_r_Bengali)
             {
-                greet_r.html('মো');
+                greet_r.html('ম');
                 //conv_greet_greet_r_Bengali = !(conv_greet_greet_r_Bengali);
             }
                 

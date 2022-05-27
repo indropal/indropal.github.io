@@ -34,7 +34,7 @@ function conv_ndro(delay)
             //console.log(conv_ndro_flag);
             
             if (conv_ndro_flag)
-                ndro.html('ন্দ্রো');
+                ndro.html('ন্দ্র');
             else
                 ndro.html('ndro');
 
