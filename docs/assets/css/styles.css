@@ -573,7 +573,7 @@ pre:hover .copy-code{
     color: var(--secondary);
     font-size: 14px;
     line-height: 1.6;
-    overflow: visible;
+    overflow: visible; 
     display: -webkit-box;
              -webkit-box-orient:
              vertical;
