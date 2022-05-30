@@ -577,7 +577,7 @@ pre:hover .copy-code{
     display: -webkit-box;
              -webkit-box-orient:
              vertical;
-             -webkit-line-clamp: 16;
+             -webkit-line-clamp: 20;
     }
     
 .entry-footer{
