@@ -1181,18 +1181,18 @@ h6:hover .anchor{
 
 .project-column-left{
     float: left;
-    width: 45%;
-    height: 625px;
-    margin: 5px 8px 50px 30px;
+    width: 48%;
+    min-height: 625px;
+    margin: 5px 8px 50px 10px;
     box-sizing:border-box;
     float: left;
 }
 
 .project-column-right{
     float: right;
-    width: 45%;
-    height: 625px;
-    margin: 5px 30px 50px 8px;
+    width: 48%;
+    min-height: 625px;
+    margin: 5px 10px 50px 8px;
     box-sizing:border-box;
     float: right;
 }
@@ -1233,7 +1233,143 @@ h6:hover .anchor{
     transform: scale(.96);
 }
 
-@media (max-width: 940px) {
+/*Screen Width of maximum 1050 pixels wide*/
+@media screen and (max-width: 1050px) {
+    .project-column-right{
+        margin: 5px 30px 50px 8px;
+        width: 42%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 600px;
+        max-height: 950px;
+        /*color:rgb(255, 0, 106);*/
+        float: right;
+    }
+    .project-column-left{
+        margin: 5px 8px 50px 30px;
+        width: 42%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 600px;
+        max-height: 950px;
+        /*color:rgb(255, 0, 106);*/
+        float: left;
+    } 
+    .project-entry{
+        min-height: 425px;
+        max-height: 750px;
+        /*color:rgb(255, 0, 106);*/
+        display: -webkit-box;
+        -webkit-box-orient:
+        vertical;
+        -webkit-line-clamp: 15;
+    }
+}
+
+
+/*Screen Width of maximum 950 pixels wide*/
+@media screen and (max-width: 950px) {
+    .project-column-right{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 400px;
+        max-height: 800px;
+        /*color:orange;*/
+    }
+    .project-column-left{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 400px;
+        max-height: 800px;
+        /*color:orange;*/
+    } 
+    .project-entry{
+        min-height: 300px;
+        max-height: 400px;
+        /*color:orange;*/
+        display: -webkit-box;
+        -webkit-box-orient:
+        vertical;
+        -webkit-line-clamp: 20;
+    }
+}
+
+/*Screen Width of maximum 775 pixels wide*/
+@media screen and (max-width: 775px) {
+    .project-column-right{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 575px;
+        max-height: 800px;
+        /*color: green;*/
+    }
+    .project-column-left{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 575px;
+        max-height: 800px;
+        /*color: green;*/
+    } 
+    .project-entry{
+        min-height: 375px;
+        max-height: 500px;
+        /*color: green;*/
+        display: -webkit-box;
+        -webkit-box-orient:
+        vertical;
+        -webkit-line-clamp: 20;        
+    }
+}
+
+/*Screen Width of maximum 600 pixels wide*/
+@media screen and (max-width: 600px) {
+    .project-column-right{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 700px;
+        max-height: 1000px;
+        /*color: blue;*/
+    }
+    .project-column-left{
+        margin: 20px auto 75px auto;
+        width: 90%;
+        float: none;
+        display: block;
+        font-size: 110%;
+        min-height: 700px;
+        max-height: 1000px;
+        /*color: blue;*/
+    } 
+    .project-entry{
+        min-height: 400px;
+        max-height: 800px;
+        /*color: blue;*/
+        display: -webkit-box;
+        -webkit-box-orient:
+        vertical;
+        -webkit-line-clamp: 20;        
+    }
+}
+
+/*Screen Width of maximum 500 pixels wide*/
+@media screen and (max-width: 500px) {
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -1241,7 +1377,9 @@ h6:hover .anchor{
         display: block;
         font-size: 110%;
         min-height: 800px;
-        max-height: 1000px;
+        max-height: 1500px;
+        line-height: 1.8;
+        /*color: red;*/
     }
     .project-column-left{
         margin: 20px auto 75px auto;
@@ -1250,14 +1388,21 @@ h6:hover .anchor{
         display: block;
         font-size: 110%;
         min-height: 800px;
-        max-height: 1000px;
+        max-height: 1500px;
+        line-height: 1.8;
+        /*color: red;*/
     } 
     .project-entry{
-        min-height: 600px;
-        max-height: 990px;
+        min-height: 800px;
+        max-height: 1200px;
+        line-height: 1.8;
+        /*color: red;*/
+        display: -webkit-box;
+        -webkit-box-orient:
+        vertical;
+        -webkit-line-clamp: 20;        
     }
 }
-
 
 /* Terms */
 .terms-tags li{
