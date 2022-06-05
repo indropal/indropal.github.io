@@ -10,7 +10,7 @@
     <meta name="description" content="AI Arcade ~ Play against AI">
     <meta name="author" content="Indrajit Pal">
     <link rel="canonical" href="https://indropal.github.io/AIArcade/" />
-    <link href="/assets/css/styles.css" rel="preload stylesheet" as="style">
+    <link href="./assets/css/styles.css" rel="preload stylesheet" as="style">
     <link rel="icon" href="https://indropal.github.io/favicon_indrajit.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/indropal/indropal.github.io/blob/main/favicon/favicon_indrajit-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/indropal/indropal.github.io/blob/main/favicon/favicon_indrajit-32x32.png">
@@ -81,7 +81,7 @@
     </script>
 </head>
 
-<body class="list" id="top">
+<body class="list" id="top" style="background: url(./static/background.png) repeat, var(--theme); background-size:contain; background-blend-mode:soft-light;">
     <script>
         if (localStorage.getItem("pref-theme") === "dark") {
             document.body.classList.add('dark');
@@ -148,27 +148,27 @@
             <ul id="menu">
                 <li>
                     <a href="https://indropal.github.io/" title="Home">
-                        <span>Home</span>
+                        <span style="font-weight: 700; font-size: 18px;">Home</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://indropal.github.io/MyProjects" title="MyProjects">
-                        <span>My Projects</span>
+                        <span style="font-weight: 700; font-size: 18px;">My Projects</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://indropal.github.io/Research" title="Research">
-                        <span>Research</span>
+                        <span style="font-weight: 700; font-size: 18px;">Research</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://indropal.github.io/AIArcade" title="AI Arcade">
-                        <span class="active">AI Arcade</span>
+                        <span class="active" style="font-weight: 700; font-size: 18px;">AI Arcade</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://indropal.github.io/AboutMe" title="About Me">
-                        <span>About Me</span>
+                        <span style="font-weight: 700; font-size: 18px;">About Me</span>
                     </a>
                 </li>
             </ul>
@@ -271,7 +271,23 @@
                 localStorage.setItem("pref-theme", 'dark');
             }
         })
+    </script>
+    <script>
 
+        if (document.body.className.includes("dark")) {
+            document.getElementById("top").style["background-blend-mode"] = "soft-light";
+        }
+        else{
+            document.getElementById("top").style["background-blend-mode"] = "hard-light";
+        }
+
+        document.getElementById("theme-toggle").addEventListener("click", () => {
+            if (document.body.className.includes("dark")) {
+                document.getElementById("top").style["background-blend-mode"] = "soft-light";
+            } else {
+                document.getElementById("top").style["background-blend-mode"] = "hard-light";
+            }
+        })
     </script>
 </body>
 
