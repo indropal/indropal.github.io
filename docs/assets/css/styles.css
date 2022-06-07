@@ -1248,11 +1248,24 @@ h6:hover .anchor{
     transform: translateZ(80px);
 }
 
+@font-face {
+    font-family: 'Audiowide';
+    src: url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.eot');
+    src: url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.woff2') format('woff2'),
+        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.woff') format('woff'),
+        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.ttf') format('truetype'),
+        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.svg#Audiowide-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .rainbow-card-text h2{
     color: var(--arcade-font-color);
     margin-top: 100px;
     font-size: 30px;
-    font-family: 'Earth Kid', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     line-height: 1.6;
 }
 
