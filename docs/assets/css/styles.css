@@ -19,6 +19,7 @@
         --linked-link-color:#4255ff;
         --linked-hover-bgd:#000000;   
         --svg-fill-color:rgb(135, 186, 253);
+        --arcade-font-color: rgb(12, 12, 12);
         --accent: #FF6266;   
     }
 
@@ -38,6 +39,7 @@
         --linked-link-color:rgb(0, 0, 0);
         --linked-hover-bgd:rgb(113, 123, 218);  
         --svg-fill-color:#ff9100;      
+        --arcade-font-color: rgb(97, 97, 97);
     }
 
 .list{
@@ -96,7 +98,7 @@ body {
         font-size:16px;
         line-height:1.6;
         word-break:break-word;
-        background:var(--theme)
+        background:var(--theme);
      }
      
 article,
@@ -1175,6 +1177,80 @@ h6:hover .anchor{
 
     text-shadow:
         0.5px 0.5px var(--secondary), 1px 1px 0.25px var(--secondary);
+}
+
+.rainbow-rgb:after{
+    content: "";
+    background: linear-gradient( 45deg,
+        #ff0000 0%,
+        #ff9a00 10%,
+        #d0de21 20%,
+        #4fdc4a 30%,
+        #3fdad8 40%,
+        #2fc9e2 50%,
+        #1c7fee 60%,
+        #5f15f2 70%,
+        #bf15f2 80%,
+        #fb07d9 90%,
+        #ff0000 100%
+    ) repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -10px;
+
+    /* add a border radius to avoid sharp edges on the card*/
+    border-radius: 16px;
+    
+    /* apply blurring effect to the card*/
+    filter: blur(7.5px);
+
+    /* refer to the animation class and apply to RGB class */
+    animation: rainbow-rgb 4s linear infinite;
+}
+
+/* Apply RGB coloring animation per frame to the card */
+@keyframes rainbow-rgb {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.rainbow-card-wrapper{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    overflow: visible;
+    padding: 20px;
+}
+
+.rainbow-card{
+    width: 250px;
+    height: 350px;
+
+    font-family: roboto;
+    border-radius: 18px;
+
+    background: #1d1d1d;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    align-items: center;
+
+    /*Tilt transformations*/
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    position: relative;
+}
+
+.rainbow-card-text{
+    align-content: center;
+    transform: translateZ(80px);
+}
+
+.rainbow-card-text h2{
+    color: var(--arcade-font-color);
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 1.6;
 }
 
 /* Project Posts */
