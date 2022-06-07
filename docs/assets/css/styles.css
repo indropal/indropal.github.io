@@ -1438,6 +1438,10 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;        
     }
+    .post-entry:hover{
+        transform: scale(1.05);
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    }
 }
 
 /*Screen Width of maximum 600 pixels wide*/
@@ -1471,6 +1475,10 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;        
     }
+    .post-entry:hover{
+        transform: scale(1.01);
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    }    
 }
 
 /*Screen Width of maximum 500 pixels wide*/
