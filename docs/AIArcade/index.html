@@ -20,6 +20,7 @@
     <meta name="msapplication-TileColor" content="#2e2e33">
     <link rel="alternate" type="application/rss+xml" href="https://indropal.github.io/index.xml">
     <link rel="alternate" type="application/json" href="https://indropal.github.io/index.json">
+    <link rel="preload" href="/static/background.jpg" as="image">
 
     <noscript>
         <style>
@@ -79,9 +80,15 @@
               ]
     }
     </script>
+
 </head>
 
-<body class="list" id="top" style="background: url(/static/background.jpg) repeat, var(--arcade-accent); background-size:contain; background-blend-mode:soft-light;">
+<body class="list" id="top"
+      style="background: url(/static/background.jpg) repeat, var(--arcade-accent);
+             background-size:contain;
+             background-blend-mode:soft-light;
+             "
+>
     <script>
         if (localStorage.getItem("pref-theme") === "dark") {
             document.body.classList.add('dark');
