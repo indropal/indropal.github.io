@@ -39,7 +39,7 @@
         --linked-link-color:rgb(0, 0, 0);
         --linked-hover-bgd:rgb(113, 123, 218);  
         --svg-fill-color:#ff9100;      
-        --arcade-font-color: rgb(97, 97, 97);
+        --arcade-font-color:  rgb(75, 75, 75);
     }
 
 .list{
@@ -1199,7 +1199,7 @@ h6:hover .anchor{
 
     /* add a border radius to avoid sharp edges on the card*/
     border-radius: 16px;
-    
+
     /* apply blurring effect to the card*/
     filter: blur(7.5px);
 
