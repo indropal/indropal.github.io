@@ -1250,12 +1250,12 @@ h6:hover .anchor{
 
 @font-face {
     font-family: 'Audiowide';
-    src: url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.eot');
-    src: url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.eot?#iefix') format('embedded-opentype'),
-        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.woff2') format('woff2'),
-        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.woff') format('woff'),
-        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.ttf') format('truetype'),
-        url('C:/Users/palin/Desktop/Profile_Projects/Profile/Try Hugo/lilianwengClone/static/fonts/Audiowide-Regular.svg#Audiowide-Regular') format('svg');
+    src: url('/static/fonts/Audiowide-Regular.eot');
+    src: url('/static/fonts/Audiowide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/static/fonts/Audiowide-Regular.woff2') format('woff2'),
+        url('/static/fonts/Audiowide-Regular.woff') format('woff'),
+        url('/static/fonts/Audiowide-Regular.ttf') format('truetype'),
+        url('/static/fonts/Audiowide-Regular.svg#Audiowide-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
