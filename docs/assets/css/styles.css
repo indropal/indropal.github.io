@@ -1408,7 +1408,7 @@ h6:hover .anchor{
 }
 
 /*Screen Width of maximum 775 pixels wide*/
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -1439,7 +1439,7 @@ h6:hover .anchor{
         -webkit-line-clamp: 20;        
     }
     .post-entry:hover{
-        transform: scale(1.05);
+        transform: scale(1.065);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }
 }
@@ -1476,7 +1476,7 @@ h6:hover .anchor{
         -webkit-line-clamp: 20;        
     }
     .post-entry:hover{
-        transform: scale(1.01);
+        transform: scale(1.05);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }    
 }
