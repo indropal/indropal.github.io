@@ -21,6 +21,7 @@
         --svg-fill-color:rgb(135, 186, 253);
         --arcade-accent: rgb(238, 238, 238);
         --arcade-font-color: rgb(12, 12, 12);
+        --project-card-accent: #1d1d1d;
         --accent: #FF6266;   
     }
 
@@ -42,6 +43,7 @@
         --svg-fill-color:#ff9100;      
         --arcade-accent: rgb(20, 20, 20);
         --arcade-font-color:  rgb(75, 75, 75);
+        --project-card-accent: #494848;
     }
 
 .list{
