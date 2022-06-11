@@ -21,7 +21,8 @@
         --svg-fill-color:rgb(135, 186, 253);
         --arcade-accent: rgb(238, 238, 238);
         --arcade-font-color: rgb(12, 12, 12);
-        --project-card-accent: #1d1d1d;
+        --project-card-accent: rgb(241, 241, 241) 100%;
+        --project-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
         --accent: #FF6266;   
     }
 
@@ -43,7 +44,8 @@
         --svg-fill-color:#ff9100;      
         --arcade-accent: rgb(20, 20, 20);
         --arcade-font-color:  rgb(75, 75, 75);
-        --project-card-accent: #494848;
+        --project-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 95%);
+        --project-card-accent: #161616;
     }
 
 .list{
@@ -1209,7 +1211,7 @@ h6:hover .anchor{
     /* add a border radius to avoid sharp edges on the card*/
     border-radius: 16px;
 
-    /* apply blurring effect to the card*/
+    /* apply blurring effect to the background of the card*/
     filter: blur(7.5px);
 
     /* refer to the animation class and apply to RGB class */
@@ -1278,28 +1280,35 @@ h6:hover .anchor{
 
 /* Project Posts */
 .project-cover {
-    border: 8px solid var(--accent);
-    border-radius: 30px;
-    background: transparent;
-    margin: 10px 0;
-    padding: 10px;
-    overflow: hidden;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 210px 340px 70px;
+        grid-template-areas: "image" "text" "stats";
+    
+        font-family: roboto;
+        border-radius: 18px;
+        background: var(--project-card-accent);
+        box-shadow: 5px 2px 20px rgba(0,0,0,0.9);
+        text-align: center;
+    
+        transform-style: preserve-3d;
+        perspective: 10000px;
     }
 
 .project-column-left{
     float: left;
-    width: 48%;
-    min-height: 625px;
-    margin: 5px 8px 50px 10px;
+    width: 42%;
+    min-height: 620px;
+    margin: 5px 10px 50px 30px;
     box-sizing:border-box;
     float: left;
 }
 
 .project-column-right{
     float: right;
-    width: 48%;
-    min-height: 625px;
-    margin: 5px 10px 50px 8px;
+    width: 42%;
+    min-height: 620px;
+    margin: 5px 5px 50px 10px;
     box-sizing:border-box;
     float: right;
 }
@@ -1312,32 +1321,94 @@ h6:hover .anchor{
 }
 
 .project-image{
-    max-width: 100%;
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    width: 99.9%;
     height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: var(--project-card-grad);
+    background-position:center;
 }
 
 .project-entry{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 10px;
-    background: var(--entry);
-    border-radius: var(--radius);
-    transition: transform .1s;
-    border: 1px solid var(--border);
-    line-height: 1.6;
-    min-height: 300px;
-    display: -webkit-box;
-             -webkit-box-orient:
-             vertical;
-             -webkit-line-clamp: 12;    
+    grid-area: text;
+    margin: 5px 25px 0px 25px;
+
+    transform: translateZ(45px);
+}
+
+.project-entry p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+.project-entry h2{
+    margin: 10px 2px 18px 2px;
+    font-size: 24px;
 }
 
 .project-entry:active{
     transform: scale(.96);
+}
+
+.project-footer{
+    grid-area: stats;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+    margin-bottom:15px;
+    font-weight:600; 
+}
+
+.project-repo{
+    font-size:14px;
+}
+
+.project1{
+    background: var(--project-card-grad), url("img1.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project1-halo:after{
+    content: "";
+    background: #5f15f2 70%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(25px);
+    transform: translateZ(-2px);
+}
+
+.project1-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.project2{
+    background: var(--project-card-grad), url("img2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project2-halo:after{
+    content: "";
+    background: #f2156a 70%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(25px);
+    transform: translateZ(-2px);
+}
+
+.project2-footer{
+    margin-top:-2px;
+    margin-bottom:15px;
+    font-weight:650; 
 }
 
 /*Screen Width of maximum 1050 pixels wide*/
@@ -1350,7 +1421,6 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 600px;
         max-height: 950px;
-        /*color:rgb(255, 0, 106);*/
         float: right;
     }
     .project-column-left{
@@ -1361,13 +1431,11 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 600px;
         max-height: 950px;
-        /*color:rgb(255, 0, 106);*/
         float: left;
     } 
     .project-entry{
         min-height: 425px;
         max-height: 750px;
-        /*color:rgb(255, 0, 106);*/
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
@@ -1386,7 +1454,6 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 400px;
         max-height: 800px;
-        /*color:orange;*/
     }
     .project-column-left{
         margin: 20px auto 75px auto;
@@ -1396,12 +1463,10 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 400px;
         max-height: 800px;
-        /*color:orange;*/
     } 
     .project-entry{
         min-height: 300px;
         max-height: 400px;
-        /*color:orange;*/
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
@@ -1419,7 +1484,6 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 575px;
         max-height: 800px;
-        /*color: green;*/
     }
     .project-column-left{
         margin: 20px auto 75px auto;
@@ -1429,12 +1493,10 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 575px;
         max-height: 800px;
-        /*color: green;*/
     } 
     .project-entry{
         min-height: 375px;
         max-height: 500px;
-        /*color: green;*/
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
@@ -1456,7 +1518,6 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 700px;
         max-height: 1000px;
-        /*color: blue;*/
     }
     .project-column-left{
         margin: 20px auto 75px auto;
@@ -1466,12 +1527,10 @@ h6:hover .anchor{
         font-size: 110%;
         min-height: 700px;
         max-height: 1000px;
-        /*color: blue;*/
     } 
     .project-entry{
         min-height: 400px;
         max-height: 800px;
-        /*color: blue;*/
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
@@ -1494,7 +1553,6 @@ h6:hover .anchor{
         min-height: 800px;
         max-height: 1500px;
         line-height: 1.8;
-        /*color: red;*/
     }
     .project-column-left{
         margin: 20px auto 75px auto;
@@ -1505,13 +1563,11 @@ h6:hover .anchor{
         min-height: 800px;
         max-height: 1500px;
         line-height: 1.8;
-        /*color: red;*/
     } 
     .project-entry{
         min-height: 800px;
         max-height: 1200px;
         line-height: 1.8;
-        /*color: red;*/
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
