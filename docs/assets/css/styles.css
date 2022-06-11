@@ -1368,7 +1368,7 @@ h6:hover .anchor{
 }
 
 .project1{
-    background: var(--project-card-grad), url("/static/img1.jpg");
+    background: var(--project-card-grad), url("/static/images/img1.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -1390,7 +1390,7 @@ h6:hover .anchor{
 }
 
 .project2{
-    background: var(--project-card-grad), url("/static/img2.jpg");
+    background: var(--project-card-grad), url("/static/images/img2.jpg");
     background-size: cover;
     background-position: center center;
 }
