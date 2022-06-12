@@ -1550,8 +1550,8 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 800px;
-        max-height: 1500px;
+        min-height: 700px;
+        max-height: 1000px;
         line-height: 1.8;
     }
     .project-column-left{
@@ -1560,13 +1560,13 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 800px;
-        max-height: 1500px;
+        min-height: 700px;
+        max-height: 1000px;
         line-height: 1.8;
     } 
     .project-entry{
-        min-height: 800px;
-        max-height: 1200px;
+        min-height: 500px;
+        max-height: 800px;
         line-height: 1.8;
         display: -webkit-box;
         -webkit-box-orient:
