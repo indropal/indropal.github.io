@@ -23,6 +23,7 @@
         --arcade-font-color: rgb(12, 12, 12);
         --project-card-accent: rgb(241, 241, 241) 100%;
         --project-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
+        --arcade-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
         --accent: #FF6266;   
     }
 
@@ -45,6 +46,7 @@
         --arcade-accent: rgb(20, 20, 20);
         --arcade-font-color:  rgb(75, 75, 75);
         --project-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 95%);
+        --arcade-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 100%);
         --project-card-accent: #161616;
     }
 
