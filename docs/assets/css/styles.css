@@ -1280,6 +1280,137 @@ h6:hover .anchor{
     line-height: 1.6;
 }
 
+
+/* AI Arcade Project Tabs effects*/
+.aiarcade-halo-rgb-left:after{
+    content: "";
+    background: linear-gradient( 45deg,
+        #ff0000 0%,
+        #ff9a00 10%,
+        #d0de21 20%,
+        #4fdc4a 30%,
+        #3fdad8 40%,
+        #2fc9e2 50%,
+        #1c7fee 60%,
+        #5f15f2 70%,
+        #bf15f2 80%,
+        #fb07d9 90%,
+        #ff0000 100%
+    ) repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -10px;
+
+    /* add a border radius to avoid sharp edges on the card*/
+    border-radius: 16px;
+
+    /* apply blurring effect to the background of the card*/
+    filter: blur(10px);
+    
+    /*place behind the project tab*/
+    transform: translateZ(-2px);
+
+    /* refer to the animation class and apply to RGB class */
+    animation: aiarcade-halo-rgb-left 6s linear infinite;
+}
+
+/* Apply RGB coloring animation per frame to the Left Project card */
+@keyframes aiarcade-halo-rgb-left {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.aiarcade-halo-rgb-right:after{
+    content: "";
+    background: linear-gradient( 45deg,
+        #ff0000 0%,
+        #fb07d9 10%,
+        #bf15f2 20%,
+        #5f15f2 30%,
+        #1c7fee 40%,
+        #2fc9e2 50%,
+        #3fdad8 60%,
+        #4fdc4a 70%,
+        #d0de21 80%,
+        #ff9a00 90%,
+        #ff0000 100%
+    ) repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -10px;
+
+    /* add a border radius to avoid sharp edges on the card*/
+    border-radius: 16px;
+
+    /* apply blurring effect to the background of the card*/
+    filter: blur(10px);
+    
+    /*place behind the project tab*/
+    transform: translateZ(-2px);
+
+    /* refer to the animation class and apply to RGB class */
+    animation: aiarcade-halo-rgb-right 6s linear infinite;
+}
+
+/* Apply RGB coloring animation per frame to the Right Project card */
+@keyframes aiarcade-halo-rgb-right {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.arcade-gif{
+ 
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    width: 99.9%;
+    height: 288px;
+    background: var(--arcade-card-grad);
+    background-position:center;
+}
+
+.arcade-entry{
+
+    /* New Card Update*/
+    grid-area: text;
+    margin: 20px 25px 0px 25px;
+
+    /* tilt-Parllax animation */
+    transform: translateZ(45px);
+}
+
+.arcade-entry p{
+
+    /* New Card Update*/
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+.arcade-entry h2{
+    margin: 50px 2px 25px 2px;
+    font-size: 24px;
+}
+
+.arcade-entry:active{
+    transform: scale(.96);
+}
+
+
+.beach-volley{
+    background: var(--arcade-card-grad), url("BeachVolleyAI.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.coin-snatcher{
+    background: var(--arcade-card-grad), url("CoinSnatcherAI.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
 /* Project Posts */
 .project-cover {
         display: grid;
