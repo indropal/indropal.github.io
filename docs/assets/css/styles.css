@@ -1401,27 +1401,44 @@ h6:hover .anchor{
     transform-style: preserve-3d;
     perspective: 10000px;
 }
+
+.arcade-column-left{
+    float: left;
+    width: 42%;
+    min-height: 400px;
+    margin: 5px 10px 50px 30px;
+    box-sizing:border-box;
+    float: left;
+}
+
+.arcade-column-right{
+    float: right;
+    width: 42%;
+    min-height: 400px;
+    margin: 5px 5px 50px 10px;
+    box-sizing:border-box;
+    float: right;
+}
+
 .arcade-entry{
 
     /* New Card Update*/
     grid-area: text;
-    margin: 20px 25px 0px 25px;
+    margin: 25px 25px 0px 25px;
 
     /* tilt-Parllax animation */
     transform: translateZ(45px);
 }
 
 .arcade-entry p{
-
-    /* New Card Update*/
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     line-height: 1.5;
     text-align:justify;
 }
 
 .arcade-entry h2{
-    margin: 50px 2px 25px 2px;
+    margin: 25px 2px 30px 2px;
     font-size: 24px;
 }
 
