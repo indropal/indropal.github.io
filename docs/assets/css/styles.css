@@ -1486,15 +1486,27 @@ h6:hover .anchor{
 }
 
 .beach-volley{
-    background: var(--arcade-card-grad), url("BeachVolleyAI.gif");
+    background: var(--arcade-card-grad), url("/static/images/BeachVolleyAI.gif");
     background-size: cover;
     background-position: center center;
 }
 
 .coin-snatcher{
-    background: var(--arcade-card-grad), url("CoinSnatcherAI.gif");
+    background: var(--arcade-card-grad), url("/static/images/CoinSnatcherAI.gif");
     background-size: cover;
     background-position: center center;
+}
+
+.beach-volley-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.coin-snatcher-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650;
 }
 
 /* Project Posts */
