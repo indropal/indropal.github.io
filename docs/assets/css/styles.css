@@ -1228,6 +1228,7 @@ h6:hover .anchor{
 }
 
 .rainbow-card-wrapper{
+    margin-top: 30px;
     align-items: center;
     display: grid;
     justify-content: center;
@@ -1370,6 +1371,36 @@ h6:hover .anchor{
     background-position:center;
 }
 
+.arcade-icons{
+    padding: 2px 0;
+}
+
+.arcade-icons a:not(:last-of-type){
+        margin-inline-end: 5px;
+    }
+    
+.arcade-icons a svg{
+        height: 50px;
+        width: 50px;
+    }
+
+.arcade-cover {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 220px 215px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: sans-serif; /*roboto;*/
+    border-radius: 18px;
+    background: var(--project-card-accent);
+    box-shadow: 5px 2px 20px rgba(0,0,0,0.9);
+    text-align: center;
+
+    /*Tilt transformations*/
+    transform-style: preserve-3d;
+    perspective: 10000px;
+}
 .arcade-entry{
 
     /* New Card Update*/
