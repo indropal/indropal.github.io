@@ -1446,6 +1446,44 @@ h6:hover .anchor{
     transform: scale(.96);
 }
 
+.arcade-footer{
+    grid-area: stats;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+    margin-bottom:15px;
+    font-weight:600; 
+}
+
+.arcade-footer-icons-left{
+    float:left;
+    margin-left:152.5px;
+    margin-top:-10px;
+}
+
+.arcade-github-link{
+    /* Github link is below the left footer icon in arcade tab*/
+    float:left;
+    margin-left:145px;
+    margin-top:-18px;
+}
+
+.arcade-footer-icons-right{
+    float:right;
+    margin-right:145px;
+    margin-top:-2px;
+}
+
+.arcade-play-link{
+    /* Arcade Playable link to Game is below the right footer icon in arcade tab */
+    float: right;
+    margin-right:152.5px;
+    margin-top:-18px;
+}
+
+.arcade-link-label{
+    margin-top: 50px;
+}
 
 .beach-volley{
     background: var(--arcade-card-grad), url("BeachVolleyAI.gif");
