@@ -1936,13 +1936,8 @@ h6:hover .anchor{
     }
 }
 
-<<<<<<< Updated upstream
-/*Screen Width of maximum 150 pixels wide*/
-@media screen and (max-width: 200px) {
-=======
 /*Screen Width of maximum 300 pixels wide*/
 @media screen and (max-width: 300px) {
->>>>>>> Stashed changes
     .arcade-column-left{
         width: 90%;
         min-height: 1100px;
