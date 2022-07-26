@@ -24,6 +24,8 @@
         --project-card-accent: rgb(241, 241, 241) 100%;
         --project-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
         --arcade-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
+        --arcade-welcome-background-color:#e8e0e0d9;
+        --arcade-welcome-font-color:#292727f9;        
         --accent: #FF6266;   
     }
 
@@ -47,6 +49,8 @@
         --arcade-font-color:  rgb(75, 75, 75);
         --project-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 95%);
         --arcade-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 100%);
+        --arcade-welcome-background-color:#403d3dad;
+        --arcade-welcome-font-color:#e1dadaf9;
         --project-card-accent: #161616;
     }
 
@@ -1359,6 +1363,19 @@ h6:hover .anchor{
     100% {background-position: 0% 50%;}
 }
 
+.arcade-welcome-text{
+    font-size:110%;
+    font-weight:400;
+    line-height:1.78;
+    background-color: var(--arcade-welcome-background-color);
+    border-radius: 9px;
+    color: var(--arcade-welcome-font-color);
+}
+
+.arcade-welcome-text p{
+    margin: 7.5px 2px 7.5px 2.5px;
+}
+
 .arcade-gif{
  
     grid-area: image;
@@ -1403,7 +1420,6 @@ h6:hover .anchor{
 }
 
 .arcade-column-left{
-    float: left;
     width: 42%;
     min-height: 400px;
     margin: 5px 10px 50px 30px;
@@ -1412,7 +1428,6 @@ h6:hover .anchor{
 }
 
 .arcade-column-right{
-    float: right;
     width: 42%;
     min-height: 400px;
     margin: 5px 5px 50px 10px;
@@ -1647,7 +1662,6 @@ h6:hover .anchor{
     .project-column-right{
         margin: 5px 30px 50px 8px;
         width: 42%;
-        float: none;
         display: block;
         font-size: 110%;
         min-height: 600px;
@@ -1657,7 +1671,6 @@ h6:hover .anchor{
     .project-column-left{
         margin: 5px 8px 50px 30px;
         width: 42%;
-        float: none;
         display: block;
         font-size: 110%;
         min-height: 600px;
@@ -1672,11 +1685,28 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 15;
     }
+
+    .arcade-column-left{
+        width: 42%;
+        min-height: 400px;
+        margin: 5px 10px 50px 30px;
+        box-sizing:border-box;
+        float: left;
+    }
+    
+    .arcade-column-right{
+        width: 42%;
+        min-height: 400px;
+        margin: 5px 5px 50px 10px;
+        box-sizing:border-box;
+        float: right;
+    }
+    
 }
 
 
 /*Screen Width of maximum 950 pixels wide*/
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -1703,6 +1733,25 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;
     }
+
+    .arcade-column-left{
+        width: 90%;
+        min-height: 400px;
+        max-height: 500px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    
+    .arcade-column-right{
+        width: 90%;
+        min-height: 400px;
+        max-height: 500px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+
 }
 
 /*Screen Width of maximum 775 pixels wide*/
@@ -1737,6 +1786,25 @@ h6:hover .anchor{
         transform: scale(1.065);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }
+
+    .arcade-column-left{
+        width: 90%;
+        min-height: 475px;
+        max-height: 550px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    
+    .arcade-column-right{
+        width: 90%;
+        min-height: 475px;
+        max-height: 550px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+
 }
 
 /*Screen Width of maximum 600 pixels wide*/
@@ -1770,7 +1838,23 @@ h6:hover .anchor{
     .post-entry:hover{
         transform: scale(1.05);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-    }    
+    }
+    .arcade-column-left{
+        width: 90%;
+        min-height: 500px;
+        max-height: 650px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    .arcade-column-right{
+        width: 90%;
+        min-height: 500px;
+        max-height: 650px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
 }
 
 /*Screen Width of maximum 500 pixels wide*/
@@ -1804,8 +1888,68 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;        
     }
+    .arcade-column-left{
+        width: 90%;
+        min-height: 600px;
+        max-height: 900px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    .arcade-column-right{
+        width: 90%;
+        min-height: 600px;
+        max-height: 900px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+
 }
 
+/*Screen Width of maximum 200 pixels wide*/
+@media screen and (max-width: 200px) {
+    .arcade-column-left{
+        width: 90%;
+        min-height: 1100px;
+        max-height: 1200px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    .arcade-column-right{
+        width: 90%;
+        min-height: 1100px;
+        max-height: 1200px;
+        margin: 5px auto 50px auto;
+        box-sizing:border-box;
+        float: none;
+    }
+    .arcade-footer{
+        margin-top: 300px;
+    }
+    .arcade-footer-icons-left{
+        float:none;
+        margin: 20px auto 10px auto;
+    }
+    .arcade-footer-icons-right{
+        float:none;
+        margin: 20px auto 10px auto;
+    }
+    .arcade-link-label{
+        margin-top: -90px;
+    }    
+    .arcade-github-link{
+        /* Github link is below the left footer icon in arcade tab*/
+        float:none;
+        margin: 0px auto 10px auto;
+    }
+    .arcade-play-link{
+        /* Arcade Playable link to Game is below the right footer icon in arcade tab */
+        float: none;
+        margin: 40px auto 10px auto;
+    }
+}
 /* Terms */
 .terms-tags li{
     display: inline-block;
