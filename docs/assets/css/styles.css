@@ -1936,8 +1936,8 @@ h6:hover .anchor{
     }
 }
 
-/*Screen Width of maximum 300 pixels wide*/
-@media screen and (max-width: 300px) {
+/*Screen Width of maximum 200 pixels wide*/
+@media screen and (max-width: 200px) {
     .arcade-column-left{
         width: 90%;
         min-height: 1100px;
