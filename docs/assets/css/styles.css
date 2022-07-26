@@ -1904,7 +1904,36 @@ h6:hover .anchor{
         box-sizing:border-box;
         float: none;
     }
-
+    .arcade-footer{
+        margin-top: 70px;
+    }
+    .arcade-footer-icons-left{
+        float:left;
+        margin-left: 70px;
+    }
+    
+    .arcade-github-link{
+        /* Github link is below the left footer icon in arcade tab*/
+        float:left;
+        margin-left:62.5px;
+        margin-top:-65px;
+    }
+    
+    .arcade-footer-icons-right{
+        float:right;
+        margin-right: 70px;
+    }
+    
+    .arcade-play-link{
+        /* Arcade Playable link to Game is below the right footer icon in arcade tab */
+        float: right;
+        margin-right:77.5px;
+        margin-top:-65px;
+    }
+    
+    .arcade-link-label{
+        margin-top: 100px;
+    }
 }
 
 <<<<<<< Updated upstream
