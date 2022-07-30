@@ -1539,7 +1539,7 @@ h6:hover .anchor{
         grid-template-rows: 210px 340px 70px;
         grid-template-areas: "image" "text" "stats";
     
-        font-family: roboto;
+        font-family: sans-serif; /*roboto;*/
         border-radius: 18px;
         background: var(--project-card-accent);
         box-shadow: 5px 2px 20px rgba(0,0,0,0.9);
