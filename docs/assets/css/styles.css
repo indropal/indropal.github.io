@@ -1588,6 +1588,7 @@ h6:hover .anchor{
 .project-entry{
     grid-area: text;
     margin: 5px 25px 0px 25px;
+    font-family: sans-serif;
 
     transform: translateZ(45px);
 }
