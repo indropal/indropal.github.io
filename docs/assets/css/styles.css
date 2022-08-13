@@ -1634,7 +1634,7 @@ h6:hover .anchor{
     position: absolute;
     inset: -3px;
     border-radius: 10px;
-    filter: blur(25px);
+    filter: blur(22.5px);
     transform: translateZ(-2px);
 }
 
@@ -1656,7 +1656,7 @@ h6:hover .anchor{
     position: absolute;
     inset: -3px;
     border-radius: 10px;
-    filter: blur(25px);
+    filter: blur(22.5px);
     transform: translateZ(-2px);
 }
 
@@ -1664,6 +1664,54 @@ h6:hover .anchor{
     margin-top:-2px;
     margin-bottom:15px;
     font-weight:650; 
+}
+
+.project3{
+    background: var(--project-card-grad), url("/static/images/clip_vqgan_img.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project3-halo:after{
+    content: "";
+    background: #05fedd 40%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(22.5px);
+    transform: translateZ(-2px);
+}
+
+.project3-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.project4{
+    background: var(--project-card-grad), url("/static/images/GraphMolecule.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project4-halo:after{
+    content: "";
+    background: #ffd700 60%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(22.5px);
+    transform: translateZ(-2px);
+}
+
+.project4-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.project-entry-adjust-p4{
+    margin-top:-15px;
 }
 
 /*Screen Width of maximum 1050 pixels wide*/
