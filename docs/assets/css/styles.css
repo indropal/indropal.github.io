@@ -1678,7 +1678,7 @@ h6:hover .anchor{
     position: absolute;
     inset: -3px;
     border-radius: 10px;
-    filter: blur(25px);
+    filter: blur(22px);
     transform: translateZ(-2px);
 }
 
@@ -1700,7 +1700,7 @@ h6:hover .anchor{
     position: absolute;
     inset: -3px;
     border-radius: 10px;
-    filter: blur(22.5px);
+    filter: blur(22px);
     transform: translateZ(-2px);
 }
 
