@@ -1714,6 +1714,50 @@ h6:hover .anchor{
     margin-top:-15px;
 }
 
+.project5{
+    background: var(--project-card-grad), url("Interpolation_of_generated_Faces.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project5-halo:after{
+    content: "";
+    background: #ef2ed6 90%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(22.5px);
+    transform: translateZ(-2px);
+}
+
+.project5-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.project6{
+    background: var(--project-card-grad), url("TrainedNavigationRLAgent.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project6-halo:after{
+    content: "";
+    background: #003cff 90%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(22.5px);
+    transform: translateZ(-2px);
+}
+
+.project6-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
     .project-column-right{
