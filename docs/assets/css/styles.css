@@ -1715,7 +1715,7 @@ h6:hover .anchor{
 }
 
 .project5{
-    background: var(--project-card-grad), url("Interpolation_of_generated_Faces.png");
+    background: var(--project-card-grad), url("/static/images/Interpolation_of_generated_Faces.png");
     background-size: cover;
     background-position: center center;
 }
@@ -1737,7 +1737,7 @@ h6:hover .anchor{
 }
 
 .project6{
-    background: var(--project-card-grad), url("TrainedNavigationRLAgent.gif");
+    background: var(--project-card-grad), url("/static/images/TrainedNavigationRLAgent.gif");
     background-size: cover;
     background-position: center center;
 }
