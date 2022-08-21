@@ -23,6 +23,7 @@
         --arcade-font-color: rgb(12, 12, 12);
         --project-card-accent: rgb(241, 241, 241) 100%;
         --project-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
+        --project-aiarcade-card-grad: linear-gradient(#fff0 0%, #86858599 1%, #bdb5b5cc 25%, #bdb5b5c3 50%, #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
         --arcade-card-grad: linear-gradient(#fff0 0%,  #bdb5b5c2 80%, rgb(241, 241, 241) 100%);
         --arcade-welcome-background-color:#e8e0e0d9;
         --arcade-welcome-font-color:#292727f9;        
@@ -48,6 +49,7 @@
         --arcade-accent: rgb(20, 20, 20);
         --arcade-font-color:  rgb(75, 75, 75);
         --project-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 95%);
+        --project-aiarcade-card-grad: linear-gradient(rgba(15, 14, 14, 0.877), rgba(49, 47, 47, 0.652) 20%, rgba(49, 45, 45, 0.625) 25%, rgba(31, 27, 27, 0.679) 50%, #161616 95%);
         --arcade-card-grad: linear-gradient(#fff0 0%, #fff0 20%, #161616 100%);
         --arcade-welcome-background-color:#403d3dad;
         --arcade-welcome-font-color:#e1dadaf9;
