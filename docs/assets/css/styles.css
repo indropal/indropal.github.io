@@ -1934,7 +1934,36 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 15;
     }
+            
+    /*Project AI-Arcade Responsive Definitions*/
+    .project-aiarcade-cover {
 
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 475px 125px 125px;
+        grid-template-areas: "image" "text" "stats";
+    
+        background: var(--project-card-accent);
+    }  
+    .project-aiarcade{
+        margin-top: 2px;
+    }
+    .project-entry-aiarcade{
+
+        grid-area: text;
+        margin: 10px 25px 0px 25px;
+    
+        /* tilt-Parllax animation */
+        transform: translateZ(45px);
+    }
+    .project-aiarcade-footer{
+        margin-top:60px;
+        margin-bottom:5px;
+        font-weight:650; 
+    }
+
+
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 42%;
         min-height: 400px;
@@ -1953,7 +1982,6 @@ h6:hover .anchor{
     
 }
 
-
 /*Screen Width of maximum 950 pixels wide*/
 @media screen and (max-width: 980px) {
     .project-column-right{
@@ -1962,7 +1990,7 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 400px;
+        min-height: 450px;
         max-height: 800px;
     }
     .project-column-left{
@@ -1971,7 +1999,7 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 400px;
+        min-height: 450px;
         max-height: 800px;
     } 
     .project-entry{
@@ -1982,7 +2010,35 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;
     }
+        
+    /*Project AI-Arcade Responsive Definitions*/
+    .project-aiarcade-cover {
 
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 250px 80px 70px;
+        grid-template-areas: "image" "text" "stats";
+    
+        background: var(--project-card-accent);
+    }  
+    .project-aiarcade{
+        margin-top: 2px;
+    }
+    .project-entry-aiarcade{
+
+        grid-area: text;
+        margin: 10px 25px 0px 25px;
+    
+        /* tilt-Parllax animation */
+        transform: translateZ(45px);
+    }
+    .project-aiarcade-footer{
+        margin-top:60px;
+        margin-bottom:5px;
+        font-weight:650; 
+    }
+
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 90%;
         min-height: 400px;
@@ -2003,7 +2059,7 @@ h6:hover .anchor{
 
 }
 
-/*Screen Width of maximum 775 pixels wide*/
+/*Screen Width of maximum 800 pixels wide*/
 @media screen and (max-width: 800px) {
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2036,6 +2092,7 @@ h6:hover .anchor{
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }
 
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 90%;
         min-height: 475px;
@@ -2088,6 +2145,8 @@ h6:hover .anchor{
         transform: scale(1.05);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }
+    
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 90%;
         min-height: 500px;
@@ -2137,6 +2196,8 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;        
     }
+
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 90%;
         min-height: 600px;
@@ -2187,6 +2248,8 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 300 pixels wide*/
 @media screen and (max-width: 300px) {
+
+    /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
         width: 90%;
         min-height: 1100px;
