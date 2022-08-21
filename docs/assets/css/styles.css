@@ -1811,7 +1811,7 @@ h6:hover .anchor{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
-    background: var(--project-aiarcade-card-grad), url("/static/images/AIArcadeProject.gif");
+    background: var(--project-aiarcade-card-grad), url("/static/images/AIArcadeProjects.gif");
     background-size: cover;
     background-position: center center;
 }
