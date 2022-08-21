@@ -1758,6 +1758,152 @@ h6:hover .anchor{
     font-weight:650; 
 }
 
+.project-aiarcade-cover {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 150px 70px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: sans-serif roboto;
+    border-radius: 18px;
+    background: var(--project-card-accent);
+    box-shadow: 5px 2px 20px rgba(0,0,0,0.9);
+    text-align: center;
+
+    /*Tilt transformations*/
+    transform-style: preserve-3d;
+    perspective: 10000px;
+}
+
+.project-entry-aiarcade{
+
+    grid-area: text;
+    margin: 5px 25px 0px 25px;
+
+    /* tilt-Parllax animation */
+    transform: translateZ(45px);
+}
+
+.project-entry-aiarcade p{
+
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+.project-entry-aiarcade h2{
+    margin: 10px 2px 18px 2px;
+    font-size: 24px;
+}
+
+.project-entry-adjust-aiarcade{
+    margin-top:-15px;
+}
+
+.project-content-adjust-aiarcade{
+    padding-top: 10px;
+}
+
+.project-aiarcade{
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    background: var(--project-aiarcade-card-grad), url("/static/images/AIArcadeProject.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project-aiarcade-halo:after{
+    content: "";
+    background: linear-gradient( 45deg,
+        #ff0000 0%,
+        #fb07d9 10%,
+        #bf15f2 20%,
+        #5f15f2 30%,
+        #1c7fee 40%,
+        #2fc9e2 50%,
+        #3fdad8 60%,
+        #4fdc4a 70%,
+        #d0de21 80%,
+        #ff9a00 90%,
+        #ff0000 100%
+    ) repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -10px;
+
+    /* add a border radius to avoid sharp edges on the card*/
+    border-radius: 16px;
+
+    /* apply blurring effect to the background of the card*/
+    filter: blur(10px);
+    
+    /*place behind the project tab*/
+    transform: translateZ(-2px);
+
+    /* refer to the animation class and apply to RGB class */
+    animation: project-aiarcade-halo 6s linear infinite;
+}
+
+/* Apply RGB coloring animation per frame to the AI-Arcade Project card */
+@keyframes project-aiarcade-halo {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.project-aiarcade-footer{
+    margin-top:0px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
+.project8{
+    background: var(--project-card-grad), url("/static/images/fastfoodVision.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.project8-halo:after{
+    content: "";
+    background: #ff9900 90%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(22.5px);
+    transform: translateZ(-2px);
+}
+
+.api-project-footer-icons-left{
+    float:none;
+    margin: -10px 80px 10px 0px;
+}
+.api-project-footer-icons-right{
+    float:none;
+    margin: -60px 0px 10px 80px;
+}
+.api-project-link-label{
+    margin-top: -90px;
+}    
+.api-project-github-link{
+    /* Github link is below the left footer icon in arcade tab*/
+    float:none;
+    margin: 80px 80px 10px 0px;
+}
+.api-project-play-link{
+    /* Arcade Playable link to Game is below the right footer icon in arcade tab */
+    float: none;
+    margin: -32px 0px 10px 80px;
+}
+
+.project8-footer{
+    margin-top:-5px;
+    margin-bottom:15px;
+    font-weight:650; 
+}
+
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
     .project-column-right{
