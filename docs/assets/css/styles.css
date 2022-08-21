@@ -2231,7 +2231,7 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 1000px;
+        min-height: 810px;
         max-height: 1500px;
         line-height: 1.8;
     }
@@ -2241,18 +2241,20 @@ h6:hover .anchor{
         float: none;
         display: block;
         font-size: 110%;
-        min-height: 1000px;
+        min-height: 810px;
         max-height: 1500px;
         line-height: 1.8;
     } 
     .project-entry{
-        min-height: 500px;
-        max-height: 800px;
+        min-height: 200px;
+        max-height: 500px;
         line-height: 1.8;
         display: -webkit-box;
         -webkit-box-orient:
         vertical;
-        -webkit-line-clamp: 20;        
+        -webkit-line-clamp: 20;
+
+        margin-top: 20px;     
     }
     .project-footer{
         grid-area: stats;
@@ -2291,7 +2293,7 @@ h6:hover .anchor{
 
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 600px 150px 70px;
+        grid-template-rows: 555px 150px 55px;
         grid-template-areas: "image" "text" "stats";
     
         background: var(--project-card-accent);
@@ -2303,15 +2305,15 @@ h6:hover .anchor{
     .project-entry-aiarcade{
 
         grid-area: text;
-        margin: 10px 25px 0px 25px;
+        margin: 0px 25px 0px 25px;
     
         /* tilt-Parllax animation */
         transform: translateZ(45px);
     }
     
     .project-aiarcade-footer{
-        margin-top:80px;
-        margin-bottom:10px;
+        margin-top:40px;
+        margin-bottom:5px;
         font-weight:650; 
     }
 
