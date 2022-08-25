@@ -1199,13 +1199,13 @@ h6:hover .anchor{
     max-width: 720px;
 }
 
-.home-entry-content{
+.home-entry-text{
     font-size: 120%;
     margin-top: 0.625em;
 }
 
 /*Research Page*/
-.research-entry-content{
+.research-entry-text{
     font-size:105%;
     text-align: justify;
     padding: 10px 0px 0px 0px;
@@ -1936,12 +1936,12 @@ h6:hover .anchor{
 @media screen and (max-width: 1050px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 110%;
     }
 
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 105%;
     }
      
@@ -2002,6 +2002,9 @@ h6:hover .anchor{
 
 
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 105%;
+    }    
     .arcade-column-left{
         width: 42%;
         min-height: 400px;
@@ -2024,12 +2027,12 @@ h6:hover .anchor{
 @media screen and (max-width: 980px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 107.5%;
     }
 
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 100%;
     }
      
@@ -2089,6 +2092,9 @@ h6:hover .anchor{
     }
 
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 100%;
+    }
     .arcade-column-left{
         width: 90%;
         min-height: 400px;
@@ -2113,12 +2119,12 @@ h6:hover .anchor{
 @media screen and (max-width: 800px) {
     
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 105%;
     }
 
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 95%;
     }
          
@@ -2164,7 +2170,6 @@ h6:hover .anchor{
     
         background: var(--project-card-accent);
     }
-        
     .project-aiarcade{
         margin-top: 2px;
     }
@@ -2176,7 +2181,6 @@ h6:hover .anchor{
         /* tilt-Parllax animation */
         transform: translateZ(45px);
     }
-    
     .project-aiarcade-footer{
         margin-top:30px;
         margin-bottom:10px;
@@ -2184,6 +2188,9 @@ h6:hover .anchor{
     }
 
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 97.5%;
+    }    
     .arcade-column-left{
         width: 90%;
         min-height: 475px;
@@ -2208,12 +2215,12 @@ h6:hover .anchor{
 @media screen and (max-width: 600px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 102.5%;
     }
     
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 90%;
     }
         
@@ -2259,7 +2266,6 @@ h6:hover .anchor{
     
         background: var(--project-card-accent);
     }
-        
     .project-aiarcade{
         margin-top: 2px;
     }
@@ -2271,7 +2277,6 @@ h6:hover .anchor{
         /* tilt-Parllax animation */
         transform: translateZ(45px);
     }
-    
     .project-aiarcade-footer{
         margin-top:80px;
         margin-bottom:10px;
@@ -2279,6 +2284,9 @@ h6:hover .anchor{
     }
     
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 95%;
+    }
     .arcade-column-left{
         width: 90%;
         min-height: 500px;
@@ -2301,12 +2309,12 @@ h6:hover .anchor{
 @media screen and (max-width: 500px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 100%;
     }
 
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 85%;
     }
     
@@ -2384,7 +2392,6 @@ h6:hover .anchor{
     
         background: var(--project-card-accent);
     }
-        
     .project-aiarcade{
         margin-top: 2px;
     }
@@ -2396,7 +2403,6 @@ h6:hover .anchor{
         /* tilt-Parllax animation */
         transform: translateZ(45px);
     }
-    
     .project-aiarcade-footer{
         margin-top:40px;
         margin-bottom:5px;
@@ -2404,6 +2410,9 @@ h6:hover .anchor{
     }
 
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 92.5%;
+    }
     .arcade-column-left{
         width: 90%;
         min-height: 600px;
@@ -2456,16 +2465,19 @@ h6:hover .anchor{
 @media screen and (max-width: 300px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content{
+    .home-entry-text{
         font-size: 95%;
     }
 
     /*Research page Responsive Styling*/
-    .research-entry-content{
+    .research-entry-text{
         font-size: 85%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
+    .arcade-welcome-text{
+        font-size: 90%;
+    }
     .arcade-column-left{
         width: 90%;
         min-height: 1100px;
