@@ -1203,6 +1203,7 @@ h6:hover .anchor{
     font-size: 120%;
     margin-top: 0.625em;
 }
+
 /*Research Page*/
 .research-entry-content{
     font-size:105%;
@@ -1939,6 +1940,11 @@ h6:hover .anchor{
         font-size: 110%;
     }
 
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 105%;
+    }
+     
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 5px 30px 50px 8px;
@@ -2022,6 +2028,11 @@ h6:hover .anchor{
         font-size: 105%;
     }
 
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 100%;
+    }
+     
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2105,7 +2116,13 @@ h6:hover .anchor{
     .home-entry-content{
         font-size: 102.5%;
     }
+
     
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 97.5%;
+    }
+         
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2196,6 +2213,11 @@ h6:hover .anchor{
         font-size: 100%;
     }
     
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 97.5%;
+    }
+        
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2284,6 +2306,11 @@ h6:hover .anchor{
         font-size: 97.5%;
     }
 
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 95%;
+    }
+    
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2432,6 +2459,11 @@ h6:hover .anchor{
     /*Home page Responsive Styling*/
     .home-entry-content{
         font-size: 95%;
+    }
+
+    /*Research page Responsive Styling*/
+    .research-entry-content{
+        font-size: 92.5%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
@@ -2586,12 +2618,11 @@ h6:hover .anchor{
         }
     }
     
-@media screen and (min-width:768px)
-    {
-        ::-webkit-scrollbar{
-                    width: 19px;
-                    height: 11px;
-                }
+@media screen and (min-width:768px){
+    ::-webkit-scrollbar{
+                width: 19px;
+                height: 11px;
+            }
     }
     
 @media screen and (max-width:900px){
