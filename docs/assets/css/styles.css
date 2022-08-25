@@ -1199,6 +1199,11 @@ h6:hover .anchor{
     max-width: 720px;
 }
 
+.home-entry-content{
+    font-size: 120%;
+    margin-top: 0.625em;
+}
+
 /*AI Arcade */
 .ai-arcade-screen{
     max-width: 1024px;
@@ -1917,6 +1922,12 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
+
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 110%;
+    }
+
     .project-column-right{
         margin: 5px 30px 50px 8px;
         width: 42%;
@@ -1993,6 +2004,12 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 980 pixels wide*/
 @media screen and (max-width: 980px) {
+
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 100%;
+    }
+    
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2070,6 +2087,12 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 800 pixels wide*/
 @media screen and (max-width: 800px) {
+    
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 95%;
+    }
+        
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2153,6 +2176,12 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 600 pixels wide*/
 @media screen and (max-width: 600px) {
+
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 90%;
+    }
+    
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2234,6 +2263,12 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 500 pixels wide*/
 @media screen and (max-width: 500px) {
+
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 90%;
+    }
+
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2377,6 +2412,11 @@ h6:hover .anchor{
 
 /*Screen Width of maximum 300 pixels wide*/
 @media screen and (max-width: 300px) {
+
+    /*Home page Responsive Styling*/
+    .home-entry-content p{
+        font-size: 80%;
+    }
 
     /*AI-Arcade Page Responsive Styling*/
     .arcade-column-left{
