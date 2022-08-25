@@ -1203,8 +1203,19 @@ h6:hover .anchor{
     font-size: 120%;
     margin-top: 0.625em;
 }
+/*Research Page*/
+.research-entry-content{
+    font-size:105%;
+    text-align: justify;
+    padding: 10px 0px 0px 0px;
+    line-height: 1.78;
+}
 
-/*AI Arcade */
+.research-section{
+    margin: 10px 2px 0px 0px;
+}
+
+/*AI Arcade Page*/
 .ai-arcade-screen{
     max-width: 1024px;
 }
@@ -1928,6 +1939,7 @@ h6:hover .anchor{
         font-size: 110%;
     }
 
+    /*Project page responsive Styling*/
     .project-column-right{
         margin: 5px 30px 50px 8px;
         width: 42%;
@@ -2009,7 +2021,8 @@ h6:hover .anchor{
     .home-entry-content{
         font-size: 105%;
     }
-    
+
+    /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2092,7 +2105,8 @@ h6:hover .anchor{
     .home-entry-content{
         font-size: 102.5%;
     }
-        
+    
+    /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2182,6 +2196,7 @@ h6:hover .anchor{
         font-size: 100%;
     }
     
+    /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
@@ -2269,6 +2284,7 @@ h6:hover .anchor{
         font-size: 97.5%;
     }
 
+    /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
         width: 90%;
