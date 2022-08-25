@@ -1194,6 +1194,11 @@ h6:hover .anchor{
     border: 2px solid var(--tertiary);
 }
 
+/*Home Page*/
+.home-screen{
+    max-width: 896px;
+}
+
 /*AI Arcade */
 .ai-arcade-screen{
     max-width: 1024px;
