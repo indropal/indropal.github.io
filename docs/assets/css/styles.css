@@ -1924,7 +1924,7 @@ h6:hover .anchor{
 @media screen and (max-width: 1050px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 110%;
     }
 
@@ -2006,7 +2006,7 @@ h6:hover .anchor{
 @media screen and (max-width: 980px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 100%;
     }
     
@@ -2089,7 +2089,7 @@ h6:hover .anchor{
 @media screen and (max-width: 800px) {
     
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 95%;
     }
         
@@ -2178,7 +2178,7 @@ h6:hover .anchor{
 @media screen and (max-width: 600px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 90%;
     }
     
@@ -2265,7 +2265,7 @@ h6:hover .anchor{
 @media screen and (max-width: 500px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 90%;
     }
 
@@ -2414,7 +2414,7 @@ h6:hover .anchor{
 @media screen and (max-width: 300px) {
 
     /*Home page Responsive Styling*/
-    .home-entry-content p{
+    .home-entry-content{
         font-size: 80%;
     }
 
