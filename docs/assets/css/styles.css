@@ -1205,6 +1205,10 @@ h6:hover .anchor{
 }
 
 /*Research Page*/
+.research-screen{
+    max-width: 896px;
+}
+
 .research-entry-text{
     font-size:105%;
     text-align: justify;
