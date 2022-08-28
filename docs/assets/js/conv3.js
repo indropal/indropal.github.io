@@ -5,7 +5,7 @@ var conv_name_t_flag = true;
 var conv_name_Pa_flag = true;
 var conv_name_l_flag = true;
 
-var name_interval = 5500;
+var name_interval = 3750; //5500;
 
 function conv_name_I(delay)
 {
@@ -167,7 +167,7 @@ function orchestrate_Bengali_name_conv()
 
 
 var convert_name = function(){
-    name_interval *= 1.5;
+    name_interval *= 2.05; //0.75;
     orchestrate_Bengali_name_conv();
     setTimeout(convert_name, name_interval);
     name_interval = 600000;
