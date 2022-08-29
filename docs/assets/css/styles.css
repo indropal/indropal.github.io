@@ -29,6 +29,7 @@
         --arcade-welcome-font-color:#292727f9;        
         --accent: #FF6266;   
         --svg-label-color: rgb(144, 153, 255);
+        --dash-color: rgb(5, 26, 255);
     }
 
 /* Themes */
@@ -56,6 +57,7 @@
         --arcade-welcome-font-color:#e1dadaf9;
         --project-card-accent: #161616;
         --svg-label-color: rgb(67, 68, 81);
+        --dash-color: rgb(144, 153, 255);
     }
 
 .list{
@@ -1221,7 +1223,18 @@ h6:hover .anchor{
 }
 
 .footer-adjust{
-    margin-top:-25px;
+    margin-top:-30px;
+}
+
+.dash{
+    height: 1px;
+    width: 30px;
+    background: var(--dash-color);
+    margin: 1px auto;
+}
+
+.dash-adjust{
+    margin-top: 107.5px;
 }
 
 /*Label Tabs*/
