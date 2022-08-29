@@ -28,6 +28,7 @@
         --arcade-welcome-background-color:#e8e0e0d9;
         --arcade-welcome-font-color:#292727f9;        
         --accent: #FF6266;   
+        --svg-label-color: rgb(144, 153, 255);
     }
 
 /* Themes */
@@ -54,6 +55,7 @@
         --arcade-welcome-background-color:#403d3dad;
         --arcade-welcome-font-color:#e1dadaf9;
         --project-card-accent: #161616;
+        --svg-label-color: rgb(67, 68, 81);
     }
 
 .list{
@@ -1203,6 +1205,40 @@ h6:hover .anchor{
     font-size: 120%;
     margin-top: 0.625em;
 }
+
+.home-contact-text{
+    text-align: center;
+    font-size: 95%; 
+}
+
+/*Label Tabs*/
+.svg-label{
+    fill: var(--svg-label-color);
+}
+.svg-align{
+    float: right;
+    margin-top: -23px;
+    margin-right: 5px;
+}
+.tab-text{
+    margin-left: -25px;
+    font-size: 110%;
+}
+.label-tab{
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.label-tab p{
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+}
+
 
 /*Research Page*/
 .research-screen{
