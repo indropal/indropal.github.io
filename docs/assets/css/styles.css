@@ -1201,6 +1201,10 @@ h6:hover .anchor{
     max-width: 896px;
 }
 
+.home-adjust{
+    margin-top: -1.25px;
+}
+
 .home-entry-text{
     font-size: 120%;
     margin-top: 0.625em;
