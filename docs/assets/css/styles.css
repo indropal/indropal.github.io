@@ -1209,6 +1209,15 @@ h6:hover .anchor{
 .home-contact-text{
     text-align: center;
     font-size: 95%; 
+    margin-top: -5px;
+}
+
+.social-icons-adjust{
+    margin-top: -5px;
+}
+
+.footer-adjust{
+    margin-top:-25px;
 }
 
 /*Label Tabs*/
