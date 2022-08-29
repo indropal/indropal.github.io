@@ -4,7 +4,7 @@
         --nav-width:1024px;
         --main-width:720px;
         --header-height:60px;
-        --footer-height:60px;
+        --footer-height:10px;
         --radius:8px;
         --theme:rgb(255, 255, 255);
         --entry:rgb(255, 255, 255);
@@ -30,6 +30,7 @@
         --accent: #FF6266;   
         --svg-label-color: rgb(144, 153, 255);
         --dash-color: rgb(5, 26, 255);
+        --contact-text: rgb(126, 126, 126);
     }
 
 /* Themes */
@@ -1204,7 +1205,7 @@ h6:hover .anchor{
 }
 
 .home-adjust{
-    margin-top: -2.5px;
+    margin-top: -1.5px;
 }
 
 .home-entry-text{
@@ -1215,7 +1216,11 @@ h6:hover .anchor{
 .home-contact-text{
     text-align: center;
     font-size: 95%; 
-    margin-top: 10px;
+    color: var(--contact-text);
+}
+
+.home-contact-adjust{
+    margin-top: 30px;
 }
 
 .social-icons-adjust{
@@ -1234,7 +1239,7 @@ h6:hover .anchor{
 }
 
 .dash-adjust{
-    margin-top: 107.5px;
+    margin-top: 5px;
 }
 
 /*Label Tabs*/
@@ -1244,7 +1249,7 @@ h6:hover .anchor{
 .svg-align{
     float: right;
     margin-top: -23px;
-    margin-right: 5px;
+    margin-right: 2.5px;
 }
 .tab-text{
     margin-left: -25px;
@@ -1254,8 +1259,7 @@ h6:hover .anchor{
     width: 90px;
     height: 40px;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: -100px;
+    margin-top: 2.5px;
     margin-left: auto;
     margin-right: auto;
 }
