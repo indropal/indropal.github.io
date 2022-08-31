@@ -31,6 +31,11 @@
         --svg-label-color: rgb(144, 153, 255);
         --dash-color: rgb(5, 26, 255);
         --contact-text: rgb(126, 126, 126);
+        --form-entry-background-color: #809df354;
+        --form-background-color: rgba(198, 219, 255, 0.651);
+        --form-entry-font-color: #151515;
+        --form-entry-border-color: #4255ff;
+        --submit-button-color: #6ea2f5e2;        
     }
 
 /* Themes */
@@ -59,6 +64,13 @@
         --project-card-accent: #161616;
         --svg-label-color: rgb(67, 68, 81);
         --dash-color: rgb(144, 153, 255);
+        --arcade-welcome-background-color:#403d3dad;
+        --arcade-welcome-font-color:#0950bbf9;
+        --form-entry-background-color: rgba(105, 108, 113, 0.364);
+        --form-background-color: rgba(76, 86, 194, 0.237);
+        --form-entry-font-color: #e8e0e0d9;
+        --form-entry-border-color: #cbc6c6;
+        --submit-button-color: rgba(81, 100, 226, 0.651);
     }
 
 .list{
@@ -1242,6 +1254,10 @@ h6:hover .anchor{
     margin-top: 5px;
 }
 
+.entry-icon-adjust{
+    display: inline-block;
+}
+
 /*Label Tabs*/
 .svg-label{
     fill: var(--svg-label-color);
@@ -1269,6 +1285,53 @@ h6:hover .anchor{
     line-height: 30px;
 }
 
+/* Contact Me*/
+.contact-me-form{
+
+    background-color: var(--form-background-color);
+    border-radius: 15px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.form-entry-bkgnd{
+    border-radius: 10px;
+    background: var(--form-entry-background-color);
+    padding: 5px 15px;
+    line-height: 1.75;
+    color: var(--form-entry-font-color);
+    border-width: 1.25px;
+    border-style: solid;
+    border-color: var(--form-entry-border-color);
+}
+
+.form-adjust{
+    padding: calc((var(--footer-height) - var(--gap) - 10px)/2)var(--gap);
+    margin-top: 50px;
+}
+
+.contact-form-dash{
+    background: var(--dash-color);
+    height: 1.15px;
+}
+
+.submit-button{
+    width: 100px;
+    background-color: var(--submit-button-color); /*#2acd58;*/
+    height: 40px;
+    margin: auto;
+    padding-top: 7.5%;
+    text-align: center;
+    border-radius: 7.5px;
+    border-style: solid;
+    border-color: var(--form-entry-border-color);
+    border-width: 1.5px;
+    font-size: 150%;
+}
+
+.home-screen{
+    max-width: 896px;
+}
 
 /*Research Page*/
 .research-screen{
