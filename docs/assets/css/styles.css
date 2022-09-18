@@ -1740,6 +1740,19 @@ h6:hover .anchor{
     margin-top: 0.625em;
 }
 
+.project-tech-tab{
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    margin-top: 2.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-tech-tab p{
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+}
 
 .project-image{
     grid-area: image;
@@ -2111,7 +2124,11 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 15;
     }
-            
+    
+    .project-entry-text{
+        font-size: 107.5%;
+    }
+
     /*Project AI-Arcade Responsive Definitions*/
     .project-aiarcade-cover {
 
@@ -2202,7 +2219,11 @@ h6:hover .anchor{
         vertical;
         -webkit-line-clamp: 20;
     }
-        
+
+    .project-entry-text{
+        font-size: 105%;
+    }
+
     /*Project AI-Arcade Responsive Definitions*/
     .project-aiarcade-cover {
 
@@ -2297,6 +2318,10 @@ h6:hover .anchor{
     .post-entry:hover{
         transform: scale(1.065);
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    }
+
+    .project-entry-text{
+        font-size: 102.5%;
     }
 
     /*Project AI-Arcade Responsive Definitions*/
@@ -2395,6 +2420,10 @@ h6:hover .anchor{
         box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
     }
     
+    .project-entry-text{
+        font-size: 102.5%;
+    }
+
     /*Project AI-Arcade Responsive Definitions*/
     .project-aiarcade-cover {
 
@@ -2496,6 +2525,10 @@ h6:hover .anchor{
         margin-top:50px;
         margin-bottom:10px;
         font-weight:600; 
+    }
+
+    .project-entry-text{
+        font-size: 97.5%;
     }
 
     /* These responsive definitions are for dual Github / API icons & links at the Project Footer*/
@@ -2611,6 +2644,10 @@ h6:hover .anchor{
     /*Research page Responsive Styling*/
     .research-entry-text{
         font-size: 92.5%;
+    }
+
+    .project-entry-text{
+        font-size: 95%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
