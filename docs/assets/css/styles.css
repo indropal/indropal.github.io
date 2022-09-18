@@ -1731,7 +1731,6 @@ h6:hover .anchor{
     content: "";
     display: table;
     clear: both;
-
 }
 
 .project-entry-text{
@@ -1743,6 +1742,7 @@ h6:hover .anchor{
 .project-tech-tab{
     width: 90px;
     height: 20px;
+    display: inline-block;
     align-items: center;
     margin-top: 2.5px;
     margin-left: auto;
