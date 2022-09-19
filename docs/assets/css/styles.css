@@ -1744,7 +1744,7 @@ h6:hover .anchor{
     height: 30px;
     display: inline-block;
     align-items: center;
-    margin-top: 0.25px;
+    margin-top: 7.5px;
 }
 
 .project-tech-tab p{
@@ -1756,6 +1756,23 @@ h6:hover .anchor{
 .project-svg-align{
     float: left;
     margin-left: 0.5px;
+}
+
+.project-dash{
+    height: 1px;
+    width: 75px;
+    background: var(--dash-color);
+    margin: 1px auto;
+}
+
+.project-tech-stack-text{
+    text-align:center;
+    margin-top:15px;
+}
+
+.project-tech-stack-icons-parent{
+    margin:7.5px auto 25px auto;
+    text-align:center;
 }
 
 .project-image{
