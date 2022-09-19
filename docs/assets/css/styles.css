@@ -1752,6 +1752,10 @@ h6:hover .anchor{
     margin: auto;
     line-height: 1.5;
 }
+.project-svg-align{
+    float: left;
+    margin-left: 0.5px;
+}
 
 .project-image{
     grid-area: image;
