@@ -1740,15 +1740,14 @@ h6:hover .anchor{
 }
 
 .project-tech-tab{
-    width: 50px;
-    height: 20px;
+    width: fit-content;
+    height: 30px;
     display: inline-block;
     align-items: center;
     margin-top: 0.25px;
 }
 
 .project-tech-tab p{
-    font-size: 95%;
     text-align: center;
     margin: auto;
     line-height: 1.5;
