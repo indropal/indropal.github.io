@@ -1741,14 +1741,14 @@ h6:hover .anchor{
 
 .project-tech-tab{
     width: 50px;
-    height: 40px;
+    height: 20px;
     display: inline-block;
     align-items: center;
     margin-top: 0.25px;
 }
 
 .project-tech-tab p{
-    font-size: 80%;
+    font-size: 92.5%;
     text-align: center;
     margin: auto;
     line-height: 1.5;
