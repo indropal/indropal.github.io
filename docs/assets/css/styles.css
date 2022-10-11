@@ -2115,24 +2115,32 @@ h6:hover .anchor{
 }
 .indro_pal_profile_pic{
     display: inline-block;
-    width: 185px;
-    height: 185px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     margin: auto;
     object-fit: cover;
-  }
+}
 .about_bkgnd_pic{
-    margin-bottom: -100px;
+    margin-bottom: -120px;
     text-align: center;
 }
 .indro_pal_bkgnd_pic{
     display: inline-block;
-    width: 500px;
-    height: 200px;
-    border-radius: 10%;
+    width: 650px;
+    height: 225px;
+    border-radius: 5%;
     margin: auto;
     object-fit: cover;
-  }
+}
+.about_me_screen{
+    max-width: 896px;
+}
+.about_me_bio{
+    font-size: 105%;
+    text-align: justify;
+    max-width: 1080px;
+}
 
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
