@@ -2151,6 +2151,18 @@ h6:hover .anchor{
     max-width: 1080px;
 }
 
+.about_me_socials{
+    font-size: 70%;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.about_me_social_icons{
+    text-align: center;
+    margin-top:-2.5px;
+}
+
+
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
 
