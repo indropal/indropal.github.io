@@ -2113,18 +2113,25 @@ h6:hover .anchor{
 .about_pic{
     text-align: center;
 }
+
 .indro_pal_profile_pic{
     display: inline-block;
     width: 225px;
     height: 225px;
     border-radius: 50%;
+    border-style: groove;
+    border-width: 2px;
+    border-color: var(--content);
     margin: auto;
     object-fit: cover;
+    margin-bottom: -10px;
 }
+
 .about_bkgnd_pic{
     margin-bottom: -120px;
     text-align: center;
 }
+
 .indro_pal_bkgnd_pic{
     display: inline-block;
     width: 650px;
@@ -2133,9 +2140,11 @@ h6:hover .anchor{
     margin: auto;
     object-fit: cover;
 }
+
 .about_me_screen{
     max-width: 896px;
 }
+
 .about_me_bio{
     font-size: 105%;
     text-align: justify;
