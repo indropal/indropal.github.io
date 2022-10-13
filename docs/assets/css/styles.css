@@ -2161,6 +2161,66 @@ h6:hover .anchor{
     text-align: center;
     margin-top:-2.5px;
 }
+.about_me_timeline{
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+}
+.about_me_timeline_component{
+    margin: 15px 20px 25px 20px;
+}
+.about_me_timeline_date_right{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+.about_me_timeline_date_left{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.about_me_timeline_middle{
+    position: relative;
+    background: var(--dash-color);
+    margin-top: 0px;
+}
+.about_me_timeline_point{
+    position: absolute;
+    top: 0  ;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12.5px;
+    height: 12.5px;
+    background: #7f7e7e;
+    border-radius: 50%;
+}
+.about_me_timeline_component_bckgnd{
+    padding: 22.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about_me_timeline_title{
+    margin-bottom: 10.5px;
+    font-size: 97.5%;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.about_me_timeline_paragraph{
+    line-height: 1.5;
+    font-size: 90%;
+    text-align: justify;
+}
+.about_me_timeline_point_start_point{
+    top: initial;
+    bottom: 0;
+}
+.present_title{
+    font-size: 90%;
+}
 
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
