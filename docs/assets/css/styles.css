@@ -2221,6 +2221,15 @@ h6:hover .anchor{
 .present_title{
     font-size: 90%;
 }
+.about_me_timeline_start{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.about_me_timeline_dash{
+    margin-top: 40px;
+}
+
 
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
