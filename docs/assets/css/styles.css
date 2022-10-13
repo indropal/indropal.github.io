@@ -2162,6 +2162,7 @@ h6:hover .anchor{
     text-align: center;
     margin-top:-2.5px;
 }
+
 .about_me_timeline{
     margin: 30px auto;
     max-width: 900px;
@@ -2169,24 +2170,34 @@ h6:hover .anchor{
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
 }
+
 .about_me_timeline_component{
     margin: 15px 20px 25px 20px;
+    transition: 0.5s;
 }
+
+.about_me_timeline_component:hover{
+    transform: scale(1.05);
+}
+
 .about_me_timeline_date_right{
     text-align: right;
     margin-right: 10px;
     margin-top: -20px;
 }
+
 .about_me_timeline_date_left{
     text-align: left;
     margin-left: 10px;
     margin-top: -20px;
 }
+
 .about_me_timeline_middle{
     position: relative;
     background: var(--dash-color);
     margin-top: 0px;
 }
+
 .about_me_timeline_point{
     position: absolute;
     top: 0  ;
@@ -2197,6 +2208,7 @@ h6:hover .anchor{
     background: #7f7e7e;
     border-radius: 50%;
 }
+
 .about_me_timeline_component_bckgnd{
     padding: 22.5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 5);
@@ -2204,29 +2216,35 @@ h6:hover .anchor{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .about_me_timeline_title{
     margin-bottom: 10.5px;
     font-size: 97.5%;
     font-weight: bold;
     line-height: 1.5;
 }
+
 .about_me_timeline_paragraph{
     line-height: 1.5;
     font-size: 90%;
     text-align: justify;
 }
+
 .about_me_timeline_point_start_point{
     top: initial;
     bottom: 0;
 }
+
 .present_title{
     font-size: 90%;
 }
+
 .about_me_timeline_start{
     margin-top: 10px;
     text-align: center;
     margin-bottom: -20px;
 }
+
 .about_me_timeline_dash{
     margin-top: 40px;
     height: 2px;
