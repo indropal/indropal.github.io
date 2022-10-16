@@ -2256,6 +2256,21 @@ h6:hover .anchor{
     height: 2px;
 }
 
+/*Navigation Bar - Responsive hamburger*/
+.nav_hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.nav_Ham_bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--form-entry-font-color);
+}
 
 /*Screen Width of maximum 1050 pixels wide*/
 @media screen and (max-width: 1050px) {
@@ -2509,6 +2524,50 @@ h6:hover .anchor{
 
     .about_me_timeline_paragraph{
         font-size: 85.5%;
+    }
+
+    /*nav-bar Hamburger Update*/
+    .nav_hamburger{
+        display: block;
+        margin: auto 25px;
+    }
+
+    /*nav-bar animation class declarations*/
+    .nav_hamburger.active .nav_Ham_bar:nth-child(2){
+        opacity: 0;
+    }
+    .nav_hamburger.active .nav_Ham_bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .nav_hamburger.active .nav_Ham_bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /*Defining Nav-Menu Orientation*/
+    .nav_menu{
+        position: fixed;
+        left: -200%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.25s;
+        background-color: var(--responsive-hamburger-menu-color);
+        z-index:99;
+        border-radius: 30px;
+    }
+    
+    .nav_link{
+        margin: 20px 0;
+    }
+    
+    .nav_menu.active{
+        left: -1.5%;
+    }
+    
+    .nav_page_link{
+        font-size: 150%;
+        font-weight: 600;
     }
 
     /*Project page responsive Styling*/
