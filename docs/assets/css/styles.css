@@ -36,6 +36,7 @@
         --form-entry-font-color: #151515;
         --form-entry-border-color: #4255ff;
         --submit-button-color: #6ea2f5e2;        
+        --responsive-hamburger-menu-color: rgba(198, 221, 252, 0.965);
     }
 
 /* Themes */
@@ -70,6 +71,7 @@
         --form-entry-font-color: #e8e0e0d9;
         --form-entry-border-color: #cbc6c6;
         --submit-button-color: rgba(81, 100, 226, 0.651);
+        --responsive-hamburger-menu-color: rgba(92, 99, 108, 0.965);
     }
 
 .list{
