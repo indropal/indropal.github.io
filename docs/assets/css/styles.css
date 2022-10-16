@@ -2370,6 +2370,10 @@ h6:hover .anchor{
         font-size: 100%;
     }
 
+    .about_me_timeline_component{
+        font-size: 90%;
+    }
+    
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2469,6 +2473,10 @@ h6:hover .anchor{
     /*About Me Bio Styling*/
     .about_me_bio{
         font-size: 97.5%;
+    }
+
+    .about_me_timeline_component{
+        font-size: 85%;
     }
 
     /*Project page responsive Styling*/
@@ -2576,6 +2584,10 @@ h6:hover .anchor{
         font-size: 95%;
     }
 
+    .about_me_timeline_component{
+        font-size: 82.5%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2678,7 +2690,11 @@ h6:hover .anchor{
     .about_me_bio{
         font-size: 92.5%;
     }
-    
+
+    .about_me_timeline_component{
+        font-size: 75%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2846,6 +2862,10 @@ h6:hover .anchor{
     /*About Me Bio Styling*/
     .about_me_bio{
         font-size: 91%;
+    }
+
+    .about_me_timeline_component{
+        font-size: 70%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
