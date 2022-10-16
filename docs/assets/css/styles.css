@@ -2171,8 +2171,8 @@ h6:hover .anchor{
 
 .about_me_timeline{
     margin: 30px auto;
-    max-width: 900px;
-    padding: 25px;
+    max-width: 950px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
 }
