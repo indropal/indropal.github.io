@@ -2269,7 +2269,23 @@ h6:hover .anchor{
     .research-entry-text{
         font-size: 105%;
     }
-     
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 102.5%;
+    }
+
+    .about_me_timeline_component{
+        font-size: 91.5%;
+    }
+
+    .about_me_timeline_title{
+        font-size: 92.5%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 88.5%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 5px 30px 50px 8px;
@@ -2373,7 +2389,15 @@ h6:hover .anchor{
     .about_me_timeline_component{
         font-size: 90%;
     }
-    
+
+    .about_me_timeline_title{
+        font-size: 90%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 87.5%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2477,6 +2501,14 @@ h6:hover .anchor{
 
     .about_me_timeline_component{
         font-size: 85%;
+    }
+
+    .about_me_timeline_title{
+        font-size: 88.5%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 85.5%;
     }
 
     /*Project page responsive Styling*/
@@ -2588,6 +2620,14 @@ h6:hover .anchor{
         font-size: 82.5%;
     }
 
+    .about_me_timeline_title{
+        font-size: 87.5%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 83.5%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2693,6 +2733,14 @@ h6:hover .anchor{
 
     .about_me_timeline_component{
         font-size: 75%;
+    }
+
+    .about_me_timeline_title{
+        font-size: 85.5%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 82%;
     }
 
     /*Project page responsive Styling*/
@@ -2866,6 +2914,14 @@ h6:hover .anchor{
 
     .about_me_timeline_component{
         font-size: 70%;
+    }
+
+    .about_me_timeline_title{
+        font-size: 82.5%;   
+    }
+
+    .about_me_timeline_paragraph{
+        font-size: 80%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
