@@ -2364,7 +2364,12 @@ h6:hover .anchor{
     .research-entry-text{
         font-size: 102.5%;
     }
-     
+
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 100%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2460,7 +2465,12 @@ h6:hover .anchor{
     .research-entry-text{
         font-size: 100%;
     }
-         
+
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 97.5%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2560,7 +2570,12 @@ h6:hover .anchor{
     .research-entry-text{
         font-size: 97.5%;
     }
-        
+
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 95%;
+    }
+
     /*Project page responsive Styling*/
     .project-column-right{
         margin: 20px auto 75px auto;
@@ -2657,6 +2672,11 @@ h6:hover .anchor{
     /*Research page Responsive Styling*/
     .research-entry-text{
         font-size: 95%;
+    }
+
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 92.5%;
     }
     
     /*Project page responsive Styling*/
@@ -2821,6 +2841,11 @@ h6:hover .anchor{
 
     .project-entry-text{
         font-size: 95%;
+    }
+
+    /*About Me Bio Styling*/
+    .about_me_bio{
+        font-size: 91%;
     }
 
     /*AI-Arcade Page Responsive Styling*/
