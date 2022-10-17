@@ -2569,7 +2569,7 @@ h6:hover .anchor{
     }
     
     .nav_link{
-        margin: 20px 0;
+        margin: 10px 0;
     }
     
     .nav_link_first{
@@ -2578,7 +2578,7 @@ h6:hover .anchor{
 
     .nav_menu.active{
         top: 1px;
-        right: -67.5%;
+        right: -60%;
     }
     
     .nav_page_link{
