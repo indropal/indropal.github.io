@@ -2535,7 +2535,10 @@ h6:hover .anchor{
     /*nav-bar Hamburger Update*/
     .nav_hamburger{
         display: block;
-        margin: auto 25px;
+        right: 25px;
+        margin-top: 20px;
+        z-index: 100;
+        position: fixed;
     }
 
     /*nav-bar animation class declarations*/
@@ -2552,26 +2555,30 @@ h6:hover .anchor{
     /*Defining Nav-Menu Orientation*/
     .nav_menu{
         position: fixed;
-        left: -200%;
+        /*left: -200%;*/
+        right: -200%;
         top: 60px;
         gap: 0;
         flex-direction: column;
         width: 100%;
         transition: 0.25s;
-
-        background: var(--hamburger-color); /*Colorful-theme*/
-        /*background-color: var(--responsive-hamburger-menu-color);*/ /*Non-colorful theme*/
-
-        z-index:99;
+        background-color: var(--responsive-hamburger-menu-color);
+        z-index: 99;
         border-radius: 30px;
+        height: 100vh;
     }
     
     .nav_link{
-        margin: 2.5px 0;
+        margin: 20px 0;
     }
     
+    .nav_link_first{
+        margin-top: 75px;
+    }
+
     .nav_menu.active{
-        left: -1.5%;
+        top: 1px;
+        right: -67.5%;
     }
     
     .nav_page_link{
