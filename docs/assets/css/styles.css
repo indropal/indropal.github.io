@@ -2266,8 +2266,8 @@ h6:hover .anchor{
 
 .nav_Ham_bar{
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 35px;
+    height: 3.5px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -2560,7 +2560,7 @@ h6:hover .anchor{
     }
     
     .nav_link{
-        margin: 20px 0;
+        margin: 2.5px 0;
     }
     
     .nav_menu.active{
@@ -2569,7 +2569,7 @@ h6:hover .anchor{
     
     .nav_page_link{
         font-size: 150%;
-        font-weight: 600;
+        font-weight: 650;
     }
 
     /*Project page responsive Styling*/
