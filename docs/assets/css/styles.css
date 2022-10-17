@@ -37,6 +37,7 @@
         --form-entry-border-color: #4255ff;
         --submit-button-color: #6ea2f5e2;        
         --responsive-hamburger-menu-color: rgba(198, 221, 252, 0.965);
+        --hamburger-color: linear-gradient(263deg, rgba(253, 39, 39, 0.97) 0%, rgba(121, 153, 234, 0.97) 100%);
     }
 
 /* Themes */
@@ -72,6 +73,7 @@
         --form-entry-border-color: #cbc6c6;
         --submit-button-color: rgba(81, 100, 226, 0.651);
         --responsive-hamburger-menu-color: rgba(92, 99, 108, 0.965);
+        --hamburger-color: linear-gradient(90deg, rgba(253,29,29,0.95) 0%, rgba(252,176,69,0.95) 100%);
     }
 
 .list{
@@ -2271,7 +2273,9 @@ h6:hover .anchor{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--form-entry-font-color);
+
+    background: var(--hamburger-color);
+    /*background-color: var(--form-entry-font-color);*/
 }
 
 /*Screen Width of maximum 1050 pixels wide*/
@@ -2554,7 +2558,10 @@ h6:hover .anchor{
         flex-direction: column;
         width: 100%;
         transition: 0.25s;
-        background-color: var(--responsive-hamburger-menu-color);
+
+        background: var(--hamburger-color); /*Colorful-theme*/
+        /*background-color: var(--responsive-hamburger-menu-color);*/ /*Non-colorful theme*/
+
         z-index:99;
         border-radius: 30px;
     }
