@@ -2266,8 +2266,8 @@ h6:hover .anchor{
 
 .nav_Ham_bar{
     display: block;
-    width: 35px;
-    height: 3.5px;
+    width: 40px;
+    height: 5px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -2539,10 +2539,10 @@ h6:hover .anchor{
         opacity: 0;
     }
     .nav_hamburger.active .nav_Ham_bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
     }
     .nav_hamburger.active .nav_Ham_bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
     }
 
     /*Defining Nav-Menu Orientation*/
