@@ -168,12 +168,12 @@
                 </li>
                 <li>
                     <a href="https://indropal.github.io/AboutMe" title="About Me" class="nav_link">
-                        <span class="active nav_page_link">About Me</span>
+                        <span class="nav_page_link">About Me</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://indropal.github.io/ContactMe" title="Contact Me" class="nav_link">
-                        <span class="nav_page_link">Contact</span>
+                        <span class="active  nav_page_link">Contact</span>
                     </a>
                 </li>
             </ul>
@@ -324,22 +324,22 @@
             }
         })
     </script>
-        <!-- Responsive hamburger Script -->
-        <script>
-            const hamburger = document.querySelector(".nav_hamburger");
-            const navMenu = document.querySelector(".nav_menu");
-    
-            hamburger.addEventListener("click", () => {
-                hamburger.classList.toggle("active");
-                navMenu.classList.toggle("active");
-            })
-    
-            document.querySelectorAll(".nav_link").forEach(n => n.addEventListener("click", () => {
-                hamburger.classList.remove("active");
-                navMenu.classList.remove("active");
-            })
-            )
-        </script>
+    <!-- Responsive hamburger Script -->
+    <script>
+        const hamburger = document.querySelector(".nav_hamburger");
+        const navMenu = document.querySelector(".nav_menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav_link").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        })
+        )
+    </script>
 </body>
 
 </html>
