@@ -519,7 +519,6 @@
                 }
             });
         });
-
     </script>
     <script>
         var mybutton = document.getElementById("top-link");
@@ -532,7 +531,6 @@
                 mybutton.style.opacity = "0";
             }
         };
-
     </script>
     <script>
         document.getElementById("theme-toggle").addEventListener("click", () => {
@@ -544,7 +542,23 @@
                 localStorage.setItem("pref-theme", 'dark');
             }
         })
+    </script>
+    
+    <!-- Responsive hamburger Script -->
+    <script>
+        const hamburger = document.querySelector(".nav_hamburger");
+        const navMenu = document.querySelector(".nav_menu");
 
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav_link").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        })
+        )
     </script>
 </body>
 
