@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <title>CV Indrajit Pal</title>
+
+    <meta name="description" content="Indrajit Pal's CV">
+    <meta name="author" content="Indrajit Pal">
+    <link rel="canonical" href="https://indropal.github.io/CV" />
+    <link href="./assets/css/styles.css" rel="preload stylesheet" as="style">
+    <link rel="icon" href="https://indropal.github.io/favicon_indrajit.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/indropal/indropal.github.io/blob/main/favicon/favicon_indrajit-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/indropal/indropal.github.io/blob/main/favicon/favicon_indrajit-32x32.png">
+    <link rel="apple-touch-icon"  type="image/png" href="https://github.com/indropal/indropal.github.io/blob/main/favicon/favicon_indrajit-apple-touch-icon.png">
+    <link rel="mask-icon" href="https://github.com/indropal/indropal.github.io/favicon/favicon_indrajit.svg">
+    <meta name="theme-color" content="#2e2e33">
+    <meta name="msapplication-TileColor" content="#2e2e33">
+    <link rel="alternate" type="application/rss+xml" href="https://indropal.github.io/index.xml">
+    <link rel="alternate" type="application/json" href="https://indropal.github.io/index.json">
+
+    <noscript>
+        <style>
+            #theme-toggle,
+            .top-link {
+                display: none;
+            }
+
+        </style>
+        <style>
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --theme: rgb(29, 30, 32);
+                    --entry: rgb(46, 46, 51);
+                    --primary: rgb(218, 218, 219);
+                    --secondary: rgb(155, 156, 157);
+                    --tertiary: rgb(65, 66, 68);
+                    --content: rgb(196, 196, 197);
+                    --hljs-bg: rgb(46, 46, 51);
+                    --code-bg: rgb(55, 56, 62);
+                    --border: rgb(51, 51, 51);
+                }
+
+                .list {
+                    background: var(--theme);
+                }
+
+                .list:not(.dark)::-webkit-scrollbar-track {
+                    background: 0 0;
+                }
+
+                .list:not(.dark)::-webkit-scrollbar-thumb {
+                    border-color: var(--theme);
+                }
+            }
+
+        </style>
+    </noscript>
+    
+    <meta property="og:title" content="IndroPal" />
+    <meta property="og:description" content="All About My Dev. Work" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://indropal.github.io/" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "IndroPal",
+    "url": "https://indropal.github.io/",
+    "description": "Website about me & my work",
+    "thumbnailUrl": "https://indropal.github.io/favicon/favicon_indrajit.ico",
+    "sameAs": [
+        "index.xml", "https://scholar.google.com/citations?user=NUn9s9YAAAAJ&hl=en", "https://github.com/indropal", "https://www.linkedin.com/in/pal-indrajit/"
+              ]
+    }
+    </script>
+</head>
+
+<body class="list" id="top">
+    <script>
+        if (localStorage.getItem("pref-theme") === "dark") {
+            document.body.classList.add('dark');
+        } else if (localStorage.getItem("pref-theme") === "light") {
+            document.body.classList.remove('dark')
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    </script>
+
+    <script>
+    MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+        },
+        options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    };
+
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+
+    </script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" asyncsrc="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span class="logo-switches">
+                    <button id="theme-toggle" accesskey="t" title="Theme">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </span>
+                <a href="https://indropal.github.io/" accesskey="h" title="Indro ~ Pal (Alt + H)">
+                    <div id="bengali-convert-1"><span id="convert_I">I</span><span id="convert_ndro">ndro</span>-<span id="convert_Pa">Pa</span><span id="convert_l">l</span></div>
+                </a>
+            </div>
+            <ul id="menu" class="nav_menu">
+                <li>
+                    <a href="https://indropal.github.io/" title="Home" class="nav_link  nav_link_first">
+                        <span class="nav_page_link">&ensp;&nbsp;<span>Home</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/MyProjects" title="MyProjects" class="nav_link">
+                        <span class="nav_page_link">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/Research" title="Research" class="nav_link">
+                        <span class="nav_page_link">Research</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/AIArcade" title="AI Arcade" class="nav_link">
+                        <span class="nav_page_link">AI Arcade</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/AboutMe" title="About Me" class="nav_link">
+                        <span class="nav_page_link">About Me</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/CV" title="My Résumé">
+                        <span class="nav_page_link"><span class="active">CV</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indropal.github.io/ContactMe" title="Contact Me" class="nav_link">
+                        <span class="nav_page_link">Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Responsive Nav-bar Update -->
+            <div class="nav_hamburger">
+                <span class="nav_Ham_bar"></span>
+                <span class="nav_Ham_bar"></span>
+                <span class="nav_Ham_bar"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main home-screen"> 
+        <article class="first-entry home-info">
+            <header class="entry-header">
+                <h1>My Résumé</h1>
+            </header>
+        </article>
+        <div style="padding: 0px 10px 30px 5px; height: 100vh;">
+            <iframe src="/static/Indrajit_Pal_CV.pdf" frameborder="0" style="width: 112.5%; height: 120%;"></iframe>
+        </div>
+    </main>
+        
+    <footer class="footer footer-adjust">
+        <span><b>&copy; 2022 <a href="https://indropal.github.io/">IndroPal | Indrajit Pal</a></b></span>
+    </footer>
+    <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </a>
+
+    <script src="./assets/js/conv1.js"></script>
+    <script src="./assets/js/conv2.js"></script>
+    <script src="./assets/js/conv3.js"></script>
+    
+    <script>
+        let menu = document.getElementById('menu')
+        if (menu) {
+            menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+            menu.onscroll = function () {
+                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                var id = this.getAttribute("href").substr(1);
+                if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                        behavior: "smooth"
+                    });
+                } else {
+                    document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+                }
+                if (id === "top") {
+                    history.replaceState(null, null, " ");
+                } else {
+                    history.pushState(null, null, `#${id}`);
+                }
+            });
+        });
+    </script>
+    <script>
+        var mybutton = document.getElementById("top-link");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+                mybutton.style.visibility = "visible";
+                mybutton.style.opacity = "1";
+            } else {
+                mybutton.style.visibility = "hidden";
+                mybutton.style.opacity = "0";
+            }
+        };
+    </script>
+    <script>
+        document.getElementById("theme-toggle").addEventListener("click", () => {
+            if (document.body.className.includes("dark")) {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            } else {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            }
+        })
+    </script>
+
+    <!-- Responsive hamburger Script -->
+    <script>
+        const hamburger = document.querySelector(".nav_hamburger");
+        const navMenu = document.querySelector(".nav_menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav_link").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        })
+        )
+    </script>
+</body>
+
+</html>
